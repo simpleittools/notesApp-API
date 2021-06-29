@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device, initial-scale=1">
+    <title>Notes API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>-RESTful API-</h2>
+<form action="" id="user_form">
+    <field>
+        <label>-GET-</label>
+        <input type="text" id="noteId" name="noteId" placeholder="Note ID">
+        <button id="getButton" name="getButton" value="submit" type="submit">Get Notes</button>
+    </field>
+</form>
+
+<form id="user_form_post">
+    <field>
+        <label>-POST-</label>
+        <br>
+        <label for="noteDetails">Note Details</label>
+        <textarea name="noteDetails" id="noteDetails"></textarea>
+        <label for="noteDueDate">Note Due Date</label>
+        <input type="date" id="noteDueDate" name="noteDueDate"><br>
+
+        <button id="postButton" name="postButton" method="POST">POST</button>
+    </field>
+</form>
+
+<form id="user_form_delete">
+    <label>-DELETE- </label>
+    <br>
+    <label for="noteId">Note Id:</label>
+    <input type="text" id="noteId" name="noteId" placeholder="Note ID">
+    <button>Delete Note</button>
+</form>
+
+<form id="user_form_put">
+    <label>-PUT- </label>
+    <br>
+    <label for="noteId">Note Id:</label>
+    <input type="text" id="noteId" name="noteId" placeholder="Note ID">
+    <label for="noteDetails">Note Details</label>
+    <textarea name="noteDetails" id="noteDetails"></textarea>
+    <label for="noteDueDate">Note Due Date</label>
+    <input type="date" id="noteDueDate" name="noteDueDate"><br>
+    <button id="putButton" name="putButton" method="PUT">PUT</button>
+</form>
+
+<h2>Database:</h2>
+<div id="results">
+
+</div>
+
+<script src="api.js"></script>
+</body>
+</html>

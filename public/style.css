@@ -1,0 +1,24 @@
+body {
+    background-color: lightgray;
+    padding: .5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+#user_form, #user_form_post, #user_form_put, #user_form_delete, #results {
+    border-style: groove;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 0.5em auto;
+
+    background-color: white;
+    max-width: 50%;
+}
+input, textarea {
+    display: block;
+    margin-bottom: .5em;
+    border-radius: 10px;
+}
+

@@ -19,6 +19,6 @@ h2 {
 input, textarea {
     display: block;
     margin-bottom: .5em;
-    border-radius: 1px;
+    border-radius: 10px;
 }
 
